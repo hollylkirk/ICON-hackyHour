@@ -1,0 +1,104 @@
+---
+title: "SessionOne_OpenScience"
+author: "Holly Kirk"
+date: "27/05/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Session One - Initial discussion: Open Science & Reproducibility
+Working towards the general idea of how to do open & reproducible science using R. 
+
+### What do we mean by “open science” and what do we mean by “reproducible science”?
+_Open Science_ - In general terms this means accessible science, i.e. everyone can access the results/publication and the data/code used to generate the publication.  
+_Reproducible Science_ - A fundamental of science practice is that our results are reliable (especially if we use them to inform policy or justify further sciencing). Reliable results should be reproducible (i.e. someone should be able to repeat your methods and get the same outcome, accounting for natural variation).
+
+Publishing open, reproducible science means it should be accessible to everyone AND should contain all the information needed to accurately reproduce the results.
+
+
+### Why should we care about this? 
+Dr Hannah Fraser introduced the “replication/reproducibility crisis” that is currently facing many science fields. It is important to keep in mind that many of the things driving the lack of reproducibility in science are not “fraudulent (although there are some astounding cases of scientific fraud!), but are based on poor research practices. These usually come about because a) many scientists are poorly trained in statistical inference and analysis, b) face mounting pressures to publish “novel” research findings, and c) academic journals have a tendency to only publish significant results that could lead to data fishing and p-hacking. 
+
+You can read more about the reproducibility crisis here and here.
+
+The very process of doing open, reproducible science should be implicit in our work. However, there are many barriers to achieving this that we often do not anticipate. In particular, the way many researchers have been taught to “analyse” data is inherently non-reproducible and even includes/encourages Questionable Research Practices (QRPs). This means that in order to do science we need to honestly examine our own processes, to make sure we are trying to avoid QRPs and to be open when we have used them.
+
+Read more about QRPs in Hannah’s paper.
+
+And a recent astounding case of scientific fraud from a spider behavioural ecologist
+
+
+### What should we be aiming for?
+If there was a “gold standard” for open, reproducible science it would probably involve the following steps:
+- Pre-registration of research design
+- Transparent analysis methods INCLUDING data cleaning/processing
+- Share the data (repository/archive)
+- Pre-prints
+- Registered reports
+- Open-access publishing
+However, there might be many reasons that this is not achievable, and it should be noted that doing any of these things represents a positive step forward. Also that there are many intermediate combinations of these steps that help to achieve “better” science. 
+
+
+### Why might it be hard to get there?
+- Money
+- Time
+- Supervisory / institutional boundaries
+- Journal resistance (both to Open Access & preprints)
+- Anchoring on ‘what I was taught’ (some old institutional values in science teaching are not easy to overcome).
+- Data sensitivities (Roshan and Marco bought up this point)
+- Fear of ‘being scooped’ with your own data. 
+We discussed that this last point is very unlikely to happen, and that there are things we can put in place to prevent this happening. For example, releasing data a year after publishing, or under a license which means people have to credit/cite you when they use the data. For the most part, people very rarely have exactly the same ideas as you and will often want to actively collaborate with work, rather than just stealing your data.
+
+Again, we need to be honest with ourselves and open with others when we cannot achieve optimal open, reproducible science.
+
+
+### Things to consider when starting a new project
+- Clear research questions that lead to clear data collection methods 
+- Plan data recording to make analysis easier
+- Plan data cleaning/wrangling/munging
+- Think about pre-registration (reviewed or not)
+- Think about registered reports that will guarantee in-principle acceptance of results
+- Think about analysis before data collection 
+- Remain honest about your original motivations for collecting the data
+- Can you use simulations to replicate your data to understand how your data quirks influence your analysis outcomes. Also could be relevant to be used as ‘dummy’ data to get over privacy concerns. 
+- Don’t be afraid to use logic and your brain rather than established metrics to check your assumptions about data and analysis techniques
+
+### Things to consider when the project has already started
+- Transparency when it comes to research questions/hypothesis and data exploration (what did you do? Be honest!)
+- Clarity in analysis processes (including data cleaning!!!)
+- Writing understandable code
+- Interpretation and results. Don’t keep throwing stats at something to see what sticks, don’t just throw all the variables in a bag and see what  is interesting/significant
+- Can the data be shared? If not the raw data, perhaps the summarised/cleaned data?
+
+### The general philosophy about being an ethical researcher
+- How can you maintain integrity when others do not? This is hard and definitely warrants reaching out to people around you for help and advice. We are all here to help!
+- Leading by example
+- Understanding the moral obligation to publish your work
+- Being confident in being open (particularly with hard earned data)
+- Understanding how to ethically use other people’s data
+- Knowing what good practice looks like and honestly reflect on how you could have changed your past practices
+
+
+USEFUL RESOURCES
+About preregistration: Making conservation science more reliable with preregistration and registered reports
+
+
+A super comprehensive, annotated list of open science articles.
+
+Some more relevant pieces from that list:
+Striving for transparent and credible research: practical guidelines for behavioral ecologists
+A Practical Guide for Transparency in Psychological Science 
+Good enough practices in scientific computing 
+Specification Curve: Descriptive and Inferential Statistics on All Reasonable Specifications
+Split-Sample Strategies for Avoiding False Discoveries
+The reusable holdout: Preserving validity in adaptive data analysis
+
+OPEN SCIENCE MOOC
+https://opensciencemooc.eu/modules/open-principles/
+
+General reading
+Cumming, G. (2013). The New Statistics. Psychological Science, 25(1), 7–29. http://doi.org/10.1177/0956797613504966
+
