@@ -27,7 +27,7 @@ df <- data.frame(a, b)
 df$e <- apply(df, 2, FUN = "sum")
 
 
-# ADDD SOME TEXT
+# ADD SOME TEXT
 
 
 
