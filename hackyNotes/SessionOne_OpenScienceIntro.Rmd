@@ -26,7 +26,7 @@ You can read more about the reproducibility crisis here and here.
 
 The very process of doing open, reproducible science should be implicit in our work. However, there are many barriers to achieving this that we often do not anticipate. In particular, the way many researchers have been taught to “analyse” data is inherently non-reproducible and even includes/encourages Questionable Research Practices (QRPs). This means that in order to do science we need to honestly examine our own processes, to make sure we are trying to avoid QRPs and to be open when we have used them.
 
-Read more about QRPs in Hannah’s paper.
+Read more about QRPs in [Hannah’s paper] (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0200303).
 
 And a recent astounding case of scientific fraud from a spider behavioural ecologist
 
